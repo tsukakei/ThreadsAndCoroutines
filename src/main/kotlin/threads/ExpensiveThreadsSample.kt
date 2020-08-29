@@ -1,4 +1,5 @@
-import java.util.concurrent.CountDownLatch
+package threads
+
 import java.util.concurrent.atomic.AtomicInteger
 import kotlin.concurrent.thread
 import kotlin.system.exitProcess

@@ -1,9 +1,8 @@
-import java.util.concurrent.CountDownLatch
+package threads
+
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.atomic.AtomicInteger
-import kotlin.concurrent.thread
-import kotlin.system.exitProcess
 
 fun main(args: Array<String>) {
     // Try setting this to 1, number of cores, 100, 2000, 3000, and see what happens
